@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <title>Destinations</title>
+</head>
+<body class="D-body">
+
+<!--===============================navbar==================================-->
+  <header class="header">
+
+    <a class="navbar-brand" href="index.html">
+      <img src="images/sl-logo-editz.png" alt="Logo">
+      <div class="logo12">
+        <span>S</span>ri<span>L</span>anka
+      </div>
+    </a>
+    
+  
+    <nav class="navbar">
+      <ul class="sidebar">
+      <a href="#" onclick=closeSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+      <a href="index.html" class="home-a">Home<span></span></a>
+      <a href="explore.html" class="explorea">Explore<span></span></a>
+      <div class="dropdown">
+        <button class="dropbtn active">Destinations<span></span></button>
+        <div class="dropdown-content">
+          <a href="destination.html#beach-section">Beaches</a>
+          <a href="destination.html#forest-section">Forests</a>
+          <a href="destination.html#historical-section">Historical sites</a>
+        </div>
+      </div>
+      <a href="maps.html" class="maps">Maps<span></span></a>
+      <a href="contact-us.html">Contact Us<span></span></a>
+   </ul>
+
+      <a href="index.html" class="hideOnMobile">Home<span></span></a>
+      <a href="explore.html" class="hideOnMobile">Explore<span></span></a>
+      <div class="dropdown">
+        <button class="hideOnMobile dropbtn active">Destinations<span></span></button>
+        <div class="dropdown-content">
+          <a href="destination.html#beach-section">Beaches</a>
+          <a href="destination.html#forest-section">Forests</a>
+          <a href="destination.html#historical-section">Historical sites</a>
+        </div>
+      </div>
+      <a href="maps.html" class="maps hideOnMobile">Maps<span></span></a>
+      <a href="contact-us.html" class="hideOnMobile">Contact Us<span></span></a>
+      <a onclick=showSidebar() href="#" class="hideOnMobile1"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+    </nav>
+  </header>
+
+<!--=============================welcome sec===============================-->
+
+  <section class="hero">
+    <div class="hero-text">
+      <h3>Welcome to Sri Lanka</h3>
+      <h1>Discover the Best Destinations in Sri Lanka</h1>
+      <p>From stunning beaches to ancient historical sites, explore the beauty of Sri Lanka.</p>
+      <img src="images/d-img-heroedit.png">
+    </div>
+
+    </section>
+<!--==================== beaches sec=========================-->
+
+
+<section id="beach-section">
+    <h2 data-text="Famous Beaches in Sri Lanka">Famous Beaches in Sri Lanka</h2>
+
+    <div class="beach-card-grid">
+
+        <div class="beach-card">
+            <img src="images/unawatuna.png" alt="Unawatuna Beach">
+            <h3>Unawatuna Beach</h3>
+            <p>Unawatuna is one of the most popular beaches in Sri Lanka, known for its golden sands and vibrant coral reefs.</p>
+            <a href="maps.html#maps-b" draggable="false" class="btn-view buttonb">View Location</a>
+        </div>
+
+        
+        <div class="beach-card">
+            <img src="images/mirissa.png" alt="Mirissa Beach">
+            <h3>Mirissa Beach</h3>
+            <p>Mirissa is a serene beach famous for whale watching, with beautiful palm-lined shores and blue waters.</p>
+            <a href="maps.html#maps-b"  draggable="false" class="btn-view buttonb">View Location</a>
+        </div>
+
+              <div class="beach-card">
+            <img src="images/arunga bay.png" alt="Arugam Bay">
+            <h3>Arugam Bay</h3>
+            <p>A world-renowned surfing destination with perfect waves and a relaxed atmosphere.</p>
+            <a href="maps.html#maps-b" draggable="false" class="btn-view buttonb">View Location</a>
+        </div>
+
+        
+        <div class="beach-card">
+            <img src="images/hikkaduwa.png" alt="Hikkaduwa Beach">
+            <h3>Hikkaduwa Beach</h3>
+            <p>Famous for its coral reefs and lively nightlife, Hikkaduwa is a great spot for snorkeling and diving.</p>
+            <a href="maps.html#maps-b" draggable="false" class="btn-view buttonb">View Location</a>
+        </div>
+
+        
+        <div class="beach-card">
+            <img src="images/nilaveli.png" alt="Nilaveli Beach">
+            <h3>Nilaveli Beach</h3>
+            <p>Known for its pristine white sands and calm waters, Nilaveli is perfect for snorkeling and swimming.</p>
+            <a href="maps.html#maps-b" draggable="false"  class="btn-view buttonb">View Location</a>
+        </div>
+
+        
+        <div class="beach-card">
+            <img src="images/katuneriya.png" alt="Katuneriya Beach">
+            <h3>Katuneriya Beach</h3>
+            <p>Katuneriya Beach is a peaceful and unspoiled destination, offering a quiet retreat with golden sands and calm waters.</p>
+            <a href="maps.html#maps-b" draggable="false" class="btn-view buttonb">View Location</a>
+        </div>
+    </div>
+</section>
+
+<!--======================= forests sec========================-->
+<!-- Forest Section Container -->
+<section id="forest-section">
+    <h2>Famous Forests in Sri Lanka</h2>
+
+    <!-- Forest Card Grid -->
+    <div class="forest-card-grid">
+        <!-- Card 1: Sinharaja Forest -->
+        <div class="forest-card">
+            <img src="images/sinharaja---.png" alt="Sinharaja Forest">
+            <h3>Sinharaja Forest</h3>
+            <p>Sinharaja Forest Reserve is a UNESCO World Heritage Site and one of the most important rainforests in Sri Lanka, known for its biodiversity.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 2: Horton Plains -->
+        <div class="forest-card">
+            <img src="images/horton-plains-national.png" alt="Horton Plains">
+            <h3>Horton Plains</h3>
+            <p>Horton Plains is a national park in Sri Lanka known for its misty cloud forests, grasslands, and the famous World’s End cliff.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 3: Knuckles Forest Reserve -->
+        <div class="forest-card">
+            <img src="images/knuckles-forest.png" alt="Knuckles Forest Reserve">
+            <h3>Knuckles Forest Reserve</h3>
+            <p>The Knuckles Mountain Range is known for its rugged landscapes, biodiversity, and hiking trails that offer spectacular views.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 4: Udawalawe National Park -->
+        <div class="forest-card">
+            <img src="images/Udawalawa-National-Park.png" alt="Udawalawe National Park">
+            <h3>Udawalawe National Park</h3>
+            <p>Known for its elephants, Udawalawe is a sanctuary that protects the wildlife and forest ecosystems in southern Sri Lanka.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 5: Wasgamuwa National Park -->
+        <div class="forest-card">
+            <img src="images/caption-wasam.png" alt="Wasgamuwa National Park">
+            <h3>Wasgamuwa National Park</h3>
+            <p>Wasgamuwa National Park is known for its rich biodiversity and elephant population, making it a perfect destination for wildlife lovers.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 6: Wilpattu National Park -->
+        <div class="forest-card">
+            <img src="images/Wilpattu-National-Park-header.jpg" alt="Wilpattu National Park">
+            <h3>Wilpattu National Park</h3>
+            <p>Wilpattu National Park is famous for its unique "willus" (natural lakes) and for being one of the largest and oldest national parks in Sri Lanka.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 7: Yala National Park -->
+        <div class="forest-card">
+            <img src="images/safari-trip-to-Yala-National-Park-1.png" alt="Yala National Park">
+            <h3>Yala National Park</h3>
+            <p>Yala National Park is the most visited and second-largest national park in Sri Lanka, known for its leopards, elephants, and diverse wildlife.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 8: Gal Oya National Park -->
+        <div class="forest-card">
+            <img src="images/The+road+to+Gal+Oya+Lodge.png" alt="Gal Oya National Park">
+            <h3>Gal Oya National Park</h3>
+            <p>Gal Oya National Park is known for boat safaris and its resident elephant population, offering a unique wildlife experience.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 9: Kumana National Park -->
+        <div class="forest-card">
+            <img src="images/kumana-nati.png" alt="Kumana National Park">
+            <h3>Kumana National Park</h3>
+            <p>Kumana is a well-known bird sanctuary and a haven for birdwatchers, with a variety of migratory and indigenous bird species.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+
+        <!-- Card 10: Minneriya National Park -->
+        <div class="forest-card">
+            <img src="images/minneriya-national-park.png" alt="Minneriya National Park">
+            <h3>Minneriya National Park</h3>
+            <p>Minneriya National Park is famous for the "Gathering," where hundreds of elephants can be seen congregating around the Minneriya reservoir.</p>
+            <a href="maps.html#maps-f" draggable="false" class="btn--f">View Location</a>
+        </div>
+    </div>
+</section>
+
+
+<!--=============================== historical sec=================================-->
+
+<section id="historical-section">
+    <h2>Famous Historical Sites in Sri Lanka</h2>
+
+    <!-- Historical Sites Card Grid -->
+    <div class="historical-card-grid">
+        <!-- Card 1: Sigiriya Rock Fortress -->
+        <div class="historical-card">
+            <img src="images/sigiriya.png" alt="Sigiriya Rock Fortress">
+            <h3>Sigiriya Rock Fortress</h3>
+            <p>Sigiriya is an ancient rock fortress and UNESCO World Heritage site, known for its frescoes, gardens, and incredible views.</p>
+            <a href="maps.html#maps-h" draggable="false" class="btn-view buttonb btn--h">View Location</a>
+        </div>
+
+        <!-- Card 2: Anuradhapura -->
+        <div class="historical-card">
+            <img src="images/anuradhapura1.png" alt="Anuradhapura">
+            <h3>Anuradhapura</h3>
+            <p>Anuradhapura is one of Sri Lanka's ancient capitals, famous for its well-preserved ruins of ancient temples and stupas.</p>
+            <a href="maps.html#maps-h" draggable="false" class="btn-view buttonb btn--h">View Location</a>
+        </div>
+
+        <!-- Card 3: Polonnaruwa -->
+        <div class="historical-card">
+            <img src="images/Polonnaruwa1.png" alt="Polonnaruwa">
+            <h3>Polonnaruwa</h3>
+            <p>Polonnaruwa is a UNESCO World Heritage site, home to the ancient remains of palaces, temples, and statues of the Buddha.</p>
+            <a href="maps.html#maps-h" draggable="false" class="btn-view buttonb btn--h">View Location</a>
+        </div>
+
+        <!-- Card 4: Temple of the Sacred Tooth Relic -->
+        <div class="historical-card">
+            <img src="images/Temple of the Sacred Tooth Relic.png" alt="Temple of the Sacred Tooth Relic">
+            <h3>Temple of the Sacred Tooth Relic</h3>
+            <p>Located in Kandy, the Temple of the Sacred Tooth Relic houses one of Buddhism's most sacred relics, the tooth of the Buddha.</p>
+            <a href="maps.html#maps-h" draggable="false" class="btn-view buttonb btn--h ">View Location</a>
+        </div>
+
+        <!-- Card 5: Dambulla Cave Temple -->
+        <div class="historical-card">
+            <img src="images/Dambulla.png" alt="Dambulla Cave Temple">
+            <h3>Dambulla Cave Temple</h3>
+            <p>Dambulla Cave Temple is the largest and best-preserved cave temple complex in Sri Lanka, featuring statues and paintings of the Buddha.</p>
+            <a href="maps.html#maps-h" draggable="false" class="btn-view buttonb btn--h">View Location</a>
+        </div>
+
+        <!-- Card 6: Galle Fort -->
+        <div class="historical-card">
+            <img src="images/1galle.png" alt="Galle Fort">
+            <h3>Galle Fort</h3>
+            <p>Galle Fort is a UNESCO World Heritage site, featuring colonial-era buildings, fortifications, and a rich cultural history.</p>
+            <a href="maps.html#maps-h" draggable="false" class="btn-view buttonb btn--h">View Location</a>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 Explore Sri Lanka. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Services</a></p>
+    <br>
+    <div id="donate-button-container">
+        <div id="donate-button"></div>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <script>
+        PayPal.Donation.Button({
+        env:'production',
+        hosted_button_id:'TXMZS7YVGVNMJ',
+        image: {
+        src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+        alt:'Donate with PayPal button',
+        title:'PayPal - The safer, easier way to pay online!',
+        }
+        }).render('#donate-button');
+        </script>
+        </div>
+        
+ </footer>
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script type="module" src="3d.js"></script>
+    <script src="app.js"></script>
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/und/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+

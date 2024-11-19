@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Explore</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+
+<!--==============================navbar===================================-->
+  <header class="header">
+
+    <a class="navbar-brand" href="index.html">
+      <img src="images/sl-logo-editz.png" alt="Logo">
+      <div class="logo12">
+        <span>S</span>ri<span>L</span>anka
+      </div>
+    </a>
+    
+
+    <nav class="navbar">
+      <ul class="sidebar">
+      <a href="#" onclick=closeSidebar()><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#000"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+      <a href="index.html" >Home<span></span></a>
+      <a href="explore.html" class="explorea active">Explore<span></span></a>
+      <div class="dropdown">
+        <button class="dropbtn">Destinations<span></span></button>
+        <div class="dropdown-content">
+          <a href="destination.html#beach-section">Beaches</a>
+          <a href="destination.html#forest-section">Forests</a>
+          <a href="destination.html#historical-section">Historical sites</a>
+        </div>
+      </div>
+      <a href="maps.html" class="maps">Maps<span></span></a>
+      <a href="contact-us.html">Contact Us<span></span></a>
+   </ul>
+
+      <a href="index.html" class="hideOnMobile">Home<span></span></a>
+      <a href="explore.html" class="hideOnMobile active">Explore<span></span></a>
+      <div class="dropdown">
+        <button class="hideOnMobile dropbtn">Destinations<span></span></button>
+        <div class="dropdown-content">
+          <a href="destination.html#beach-section">Beaches</a>
+          <a href="destination.html#forest-section">Forests</a>
+          <a href="destination.html#historical-section">Historical sites</a>
+        </div>
+      </div>
+      <a href="maps.html" class="maps hideOnMobile">Maps<span></span></a>
+      <a href="contact-us.html" class="hideOnMobile">Contact Us<span></span></a>
+      <a onclick=showSidebar() href="#" class="hideOnMobile1"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26" fill="#000"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+    </nav>
+  </header>
+
+<!--==========================img slider===================================-->
+
+    <div class="slider">
+      <div class="list">
+        <div class="item active">
+          <img src="images/img1.png" draggable="false">
+          <div class="content">
+            <p>Sigiriya</p>
+            <h2 class="sigiriya-h2">Sigiriya Rock Fortress</h2>
+            <div class="p-card-slider">
+              <p>A breathtaking ancient rock fortress, especially stunning during sunrise or sunset, showcasing the grandeur of Sri Lankan history.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img2.png">
+          <div class="content">
+            <p>Temple of tooth relic</p>
+             <h2 class="longh2--h2" id="h2-text-1">Temple of the Tooth Relic</h2>
+             <div class="p-card-slider">
+                <p>One of the most sacred sites in Sri Lanka, this temple offers a serene and spiritual atmosphere in the heart of Kandy.</p>
+             </div>
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img3.png">
+          <div class="content">
+            <p>Galle Fort</p>
+            <h2 class="galla">Galle Fort</h2>
+
+            <div class="p-card-slider">
+              <p>Step into the past with colonial architecture and coastal beauty that reflects Sri Lanka's rich heritage.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img4.png">
+          <div class="content">
+            <p>Yala</p>
+            <h2 class="yala-h2">Yala National Park</h2>
+
+            <div class="p-card-slider">
+              <p>Explore a vibrant ecosystem with majestic elephants, elusive leopards, and stunning sunsets over the savanna.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img5.png">
+          <div class="content">
+            <p>Horton Plains</p>
+            <h2 class="hortan">Horton Plains</h2>
+
+            <div class="p-card-slider">
+              <p>Discover the awe-inspiring "World's End" cliff or wander through misty cloud forests in this unique highland sanctuary.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img6.png">
+          <div class="content">
+            <p>Udawalawe</p>
+            <h2 class="udawalawe-h2">Udawalawe National Park</h2>
+
+            <div class="p-card-slider">
+              <p>Get up close with wild elephants in their natural habitat, a thrilling and unforgettable wildlife experience.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img8.png">
+          <div class="content">
+            <p>Mirissa</p>
+            <h2 class="mirissah2">Mirissa</h2>
+
+            <div class="p-card-slider">
+              <p>Embark on a whale-watching adventure or unwind by the calm, palm-lined shores of Mirissa's scenic coastline.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img9.png">
+          <div class="content">
+            <p>Ella</p>
+            <h2 class="ella1">Ella</h2>
+
+            <div class="p-card-slider">
+              <p>Marvel at the Nine Arches Bridge with a train gliding over it or hike up Little Adam’s Peak for panoramic views.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img10.png">
+          <div class="content">
+            <p>Perahera Festival</p>
+            <h2 class="kandy-h2">Kandy Esala Perahera</h2>
+
+            <div class="p-card-slider">
+            <p>Witness the vibrant Perahera procession, a mesmerizing display of dancers, traditional costumes, and decorated elephants.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img11.png">
+          <div class="content">
+            <p>Anuradhapura</p>
+            <h2 class="long2-h2">Ancient Ruins of Anuradhapura</h2>
+
+            <div class="p-card-slider">
+            <p>Step back in time to explore sacred stupas and the remains of Sri Lanka's ancient palaces and temples.</p>
+            </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img12.png">
+          <div class="content">
+            <p>Knuckles Range</p>
+            <h2 class="long3-h2">Hiking in Knuckles Range</h2>
+
+            <div class="p-card-slider">
+            <p>Trek through lush greenery and rugged landscapes in the Knuckles Range, a paradise for hiking enthusiasts.</p>
+          </div>
+          
+          </div>
+        </div>
+        <div class="item">
+          <img src="images/img13.png">
+          <div class="content">
+            <p>Waterfalls</p>
+            <h2 class="water-h2">Bambarakanda Falls</h2>
+
+            <div class="p-card-slider">
+            <p>Marvel at Sri Lanka’s tallest waterfall, nestled in a serene, forested valley with breathtaking views.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+        <!--button-->
+
+        <div class="arrows">
+          <button id="prev" class="prev-btn"><</button>
+          <button id="next" class="next-btn">></button>
+        </div>
+        <!--thumb-->
+        <div class="thumbnail">
+          <div class="item active">
+            <img src="images/img1.png">
+            <div class="content">
+              Sigiriya
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img2.png">
+            <div class="content">
+              Temple of tooth relic
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img3.png">
+            <div class="content">
+              Galle fort
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img4.png">
+            <div class="content">
+              Yala
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img5.png">
+            <div class="content">
+              Horton Plains
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img6.png">
+            <div class="content">
+              Udawalawe
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img8.png">
+            <div class="content">
+              Mirissa
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img9.png">
+            <div class="content">
+              Ella
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img10.png">
+            <div class="content">
+              Perahara
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img11.png">
+            <div class="content">
+              Anuradhapura
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img12.png">
+            <div class="content">
+              Knuckles
+            </div>
+          </div>
+          <div class="item">
+            <img src="images/img13.png">
+            <div class="content">
+              waterfall
+            </div>
+          </div>
+        </div>
+    </div>
+<!--===================footer==============================-->
+    
+    <footer class="exploreF">
+      <p>&copy; 2024 Explore Sri Lanka. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Services</a></p>
+      <br>
+      <div id="donate-button-container">
+        <div id="donate-button"></div>
+        <script src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js" charset="UTF-8"></script>
+        <script>
+        PayPal.Donation.Button({
+        env:'production',
+        hosted_button_id:'TXMZS7YVGVNMJ',
+        image: {
+        src:'https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif',
+        alt:'Donate with PayPal button',
+        title:'PayPal - The safer, easier way to pay online!',
+        }
+        }).render('#donate-button');
+        </script>
+        </div>
+        
+   </footer>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/und/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

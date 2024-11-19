@@ -1,0 +1,29 @@
+        <div class="container--cards">
+          <div class="box--cards">
+            <span></span>
+            <div class="content">
+              <h2>Beaches</h2>
+              <p>Discover pristine beaches like Unawatuna and Mirissa.</p>
+              <a href="destination.html#beach-section">Explore Beaches</a>
+            </div>
+          </div>
+          <div class="box--cards">
+            <span></span>
+            <div class="content">
+              <h2>Forest</h2>
+              <p>Explore the lush forests of Sinharaja and Knuckles Range</p>
+              <a href="destination.html#forest-section">Explore Forests</a>
+            </div>
+          </div>
+          <div class="box--cards">
+            <span></span>
+            <div class="content">
+              <h2>Historical Sites</h2>
+              <p>Explore ancient ruins and temples throughout the island.</p>
+              <a href="destination.html#historical-section">Explore Historical Sites</a>
+            </div>
+          </div>
+          <a class="btn-ex" draggable="false" href="explore.html">
+            Explore
+          </a>
+        </div>
