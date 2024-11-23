@@ -1,1 +1,1 @@
-# explore-SriLanka.com
+# beauty of srilanka.com
